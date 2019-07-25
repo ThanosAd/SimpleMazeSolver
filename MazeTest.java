@@ -19,7 +19,7 @@ public class MazeTest {
 		Maze m = new Maze(tfmaze.length, tfmaze[0].length, tfmaze);
 		System.out.println(m.toString());
 		System.out.println(m);
-		System.out.println("***********************8");
+		System.out.println("***********************");
 		
 		if (!m.solve())
 			System.out.println("Maze is insoluble");
