@@ -31,7 +31,7 @@ public class MazeTest {
 		System.out.println(m);
 
 		if (!m.solve())
-			System.out.println("Maze is insoluble");
+			System.out.println("Maze is unsolvable");
 		else m.printSolution();
 	}
 }
